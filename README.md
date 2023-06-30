@@ -17,9 +17,7 @@ Game loop - Reach the end to win
 
 How to Play?
 
-This project can be opened in Unity and is playable.
-
-
+All the relevant files are provided and can be downloaded. The game can run on any device which supports Unity 2021 and Visual Studio code. The visual Studio Code should have necessary or the lastest c# extensions, so as the code can run. 
 
 The development of this game is divided as follow :
  
