@@ -1,5 +1,31 @@
 # kristoff_frosty_ride
 
+Kristoff_frosty_ride is a playable snow boarding game project that is built in Unity Hub 2021, and coded in c#. 
+
+The game mechanics that are involved in this game are :
+
+- Player Dynamics - rotation, speed, torque, smooth track with jumps
+- Finish line that restarts the level
+- Crash detection that restarts the level
+
+The game Design is :
+
+Player experience - Smooth and relaxing
+Core Mechanic - Don't Crash 
+Game loop - Reach the end to win
+
+How to Play?
+
+This project can be opened in Unity and can be played using the commands A, S, & W.
+
+
+ The key features of Cinemachine used in this game are :
+1. Virtual Cameras - It is used to focus on the backgroud and the path Kristoff is folllowing throughout the game.
+2. Dynamic Tracking - To automatically track and follow the objects in the game environment and change the 
+3. Camera Transitions
+
+
+
 
 <img width="500" alt="Screenshot 2023-06-29 at 8 41 54 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/a171d6f2-379a-4c94-9a31-a106d001c065">
 
