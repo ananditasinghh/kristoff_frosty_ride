@@ -29,7 +29,9 @@ The player's character, Kristoff, is the main focus of the game. The Sprite Shap
 
 To enhance the realism of snowboarding, the Surface Effector 2D is implemented to govern the mechanics of Kristoff's body during the gameplay. The AddTorque() function is utilised when the player jumps from one cliff to another, creating a natural rotation effect in mid-air.
 
-The Invoke() function manages the timing after a hit, ensuring the game flows smoothly without abrupt interruptions.
+Namespace And Management - used classes and methods from SceneManagement namespace, although because this is one player game so it won't be difficult to accommodate  and manage. But Namespace And Management is important for games where there are two or more players. 
+
+The Invoke() function manages the timing after a hit, ensuring the game flows smoothly without abrupt interruptions. The arguement of how long the delay is to be passed in Invoke()
 
 AngularDrag() plays a crucial role in maintaining player control by slowing down Kristoff's rotation, allowing for precise movements during critical moments.
 
@@ -46,9 +48,7 @@ The CrashDetector() function discreetly provides on-screen messages, whenever th
 
 Audio and Sound Effects:
 
-The game has a soundscape with audio and sound effects. AudioSource is attached to a GameObject to ensure seamless playback of in-game sounds.
-
-Additionally, an audio listener is attached to the camera, enabling players to immerse themselves fully in the game XD
+The game has a soundscape with audio and sound effects. AudioSource is attached to a GameObject to ensure seamless playback of in-game sounds. In this game, we have used two sound effects(SFX), crash and finish.
 
 
 <img width="500" alt="Screenshot 2023-06-29 at 1 46 44 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/35a84566-9654-4417-926e-d600a489b98f">
