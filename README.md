@@ -25,7 +25,8 @@ Player and Mechanics:
 
 The player's character, Kristoff, is the main focus of the game. The Sprite Shapes feature is ingeniously utilised to create the cliff and snow field environments, for adding a visually appealing touch to the gameplay.
 
-To enhance the realism of snowboarding, the Surface Effector 2D is implemented to govern the mechanics of Kristoff's body during the gameplay. The AddTorque() function is utilised when the player jumps from one cliff to another, creating a natural rotation effect in mid-air.
+To enhance the realism of snowboarding, the Surface Effector 2D is implemented to govern the mechanics of Kristoff's body during the gameplay. The AddTorque() function 
+is utilised when the player jumps from one cliff to another, creating a natural rotation effect in mid-air.
 
 Namespace And Management - used classes and methods from SceneManagement namespace, although because this is one player game so it won't be difficult to accommodate  and manage. But Namespace And Management is important for games where there are two or more players. 
 
@@ -33,10 +34,11 @@ The Invoke() function manages the timing after a hit, ensuring the game flows sm
 
 AngularDrag() plays a crucial role in maintaining player control by slowing down Kristoff's rotation, allowing for precise movements during critical moments.
 
+![image](https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/fb57ff7c-0cd6-4a2c-8e6f-94aea9d03f94)
 
-<img width="500" alt="Screenshot 2023-06-29 at 8 45 43 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/79904034-2ee6-4c13-89a8-943a1809ee32">
+![image](https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/c4104fd2-9090-4e0c-9497-8c92a1066bd9)
 
-<img width="500" alt="Screenshot 2023-06-29 at 8 43 22 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/6f9955a8-6529-4219-8d0d-f22ecc9b06fc">
+
 
 Particle System and Crash Detection in the game :
 
@@ -49,9 +51,11 @@ Audio and Sound Effects:
 The game has a soundscape with audio and sound effects. AudioSource is attached to a GameObject to ensure seamless playback of in-game sounds. In this game, we have used two sound effects(SFX), crash and finish.
 
 
-<img width="500" alt="Screenshot 2023-06-29 at 1 46 44 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/35a84566-9654-4417-926e-d600a489b98f">
+![image](https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/bc9c2871-3438-4b13-952b-1bd8c243671d)
 
-<img width="500" alt="Screenshot 2023-06-29 at 1 59 51 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/00d6f7bc-871a-4521-b030-18381e1fffd4">
+![image](https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/39defc74-36a5-432d-81f3-74cf1442d86e)
+
+
 
 Camera and View:
 
@@ -64,9 +68,11 @@ Cinemachine, a Unity plugin, plays a pivotal role in enhancing the overall gamin
 -Camera Transitions provide seamless transitions between different curves in the game space, maintaining visual continuity and ensuring an uninterrupted snowboarding 
 
 
-<img width="500" alt="Screenshot 2023-06-29 at 8 41 54 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/a171d6f2-379a-4c94-9a31-a106d001c065">
+![image](https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/1be9da8e-cff6-4c21-8344-30f75c7c790e)
 
-<img width="500" alt="Screenshot 2023-06-29 at 8 42 19 PM" src="https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/236e887e-f24b-43fe-8a0c-157762cf1049">
+![image](https://github.com/ananditasinghh/kristoff_frosty_ride/assets/97512151/cce58b81-f0b4-4a0d-a410-efabdb4577d9)
+
+
 
 
 
